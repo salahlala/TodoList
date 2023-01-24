@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 60px auto;
+  text-align: center;
+  width: 500px;
+}
+
+.main h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.main .user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap:20px;
+  width: 100%;
+
+}
+.main .user-input input {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.main .user-input input:focus {
+  outline: none;
+}
+.main .user-input .add-btn {
+  background-color: rgb(42, 114, 165);
+  border-radius:5px ;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main .user-details {
+  display: flex;
+  align-items: center;
+  gap:15px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.main .user-details p {
+  background-color: #333;
+  color:#fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+  word-break: break-all;
+}
+.main .user-details .delete-btn , .main .user-details .edit-btn {
+  padding: 5px 7px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.main .user-details .delete-btn {
+  background-color: rgb(151, 25, 25);
+
+}
+
+
+.main .user-details .edit-btn {
+  background-color: green;
+}
